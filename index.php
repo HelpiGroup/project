@@ -13,5 +13,10 @@
  */
 define('WP_USE_THEMES', true);
 
+for($i = 0; $i < 10; $i++) {
+    echo $i;
+    if($i == 9) echo 'fff';
+}
+
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );
